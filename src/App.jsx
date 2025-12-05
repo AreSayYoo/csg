@@ -14,6 +14,8 @@ function App() {
           loop
           muted
           playsInline
+          preload="auto"
+          controls={false}
           aria-label="Covenant highlight reel"
         />
         <div className="hero-overlay" />
