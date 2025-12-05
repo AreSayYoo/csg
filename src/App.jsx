@@ -2,7 +2,7 @@ import './App.css'
 
 function App() {
   const videoSrc = '/media/covenant-reel.mov'
-  const logoSrc = '/media/csg.jpeg'
+  const logoSrc = '/media/csg.png'
 
   return (
     <div className="page">
