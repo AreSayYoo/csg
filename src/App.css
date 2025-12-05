@@ -77,8 +77,8 @@ body {
   align-items: center;
   justify-content: space-between;
   z-index: 4;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0));
-  backdrop-filter: blur(6px);
+  background: none;
+  backdrop-filter: none;
 }
 
 .nav-logo {
@@ -249,6 +249,7 @@ body {
   .top-nav {
     padding: 0.65rem 1.25rem;
     background: #000;
+    backdrop-filter: none;
   }
 
   .nav-logo {
@@ -265,6 +266,7 @@ body {
   .top-nav {
     padding: 0.5rem 1rem;
     background: #000;
+    backdrop-filter: none;
   }
 
   .nav-logo {
