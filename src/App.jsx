@@ -24,7 +24,7 @@ function App() {
             <div className="logo-mark">
               <img src={logoSrc} alt="Covenant Sports Group logo" />
             </div>
-            <p className="tagline-inline">More than a contract. A Covenant</p>
+            <p className="tagline-inline">More than a contract. A Covenant.</p>
             <div className="social-links" aria-label="Follow Covenant">
               <a
                 className="social-button"
