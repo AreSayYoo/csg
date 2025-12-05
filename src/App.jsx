@@ -7,6 +7,16 @@ function App() {
   return (
     <div className="page">
       <section className="hero">
+        <header className="top-nav">
+          <div className="nav-logo">
+            <img src="/media/covenant-logo.png" alt="Covenant Sports Group" />
+          </div>
+          <nav className="nav-links" aria-label="Primary navigation">
+            <ul>
+              {/* Future links go here */}
+            </ul>
+          </nav>
+        </header>
         <video
           className="hero-video"
           src={videoSrc}
