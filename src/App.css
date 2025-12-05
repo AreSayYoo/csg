@@ -228,7 +228,7 @@ body {
   }
 
   .tagline-inline {
-    bottom: calc(120px + env(safe-area-inset-bottom));
+    bottom: calc(110px + env(safe-area-inset-bottom));
     width: 92vw;
     padding: 0 0.5rem;
   }
@@ -270,11 +270,13 @@ body {
     padding: 0.5rem 1rem;
     background: #000;
     backdrop-filter: none;
+    justify-content: center;
   }
 
   .nav-logo {
     width: clamp(120px, 30vw, 160px);
     height: clamp(44px, 6vw, 64px);
+    margin: 0 auto;
   }
 
   .nav-links ul {
