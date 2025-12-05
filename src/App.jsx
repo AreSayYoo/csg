@@ -23,6 +23,26 @@ function App() {
               <img src={logoSrc} alt="Covenant Sports Group logo" />
             </div>
             <p className="tagline-inline">More than a contract. A Covenant</p>
+            <div className="social-links" aria-label="Follow Covenant">
+              <a
+                className="social-button"
+                href="https://www.instagram.com/covenantsportsgroup"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+              >
+                <img src="/media/instagram.svg" alt="" aria-hidden="true" />
+              </a>
+              <a
+                className="social-button"
+                href="https://x.com/covenant_sg"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="X (Twitter)"
+              >
+                <img src="/media/x-icon.svg" alt="" aria-hidden="true" />
+              </a>
+            </div>
           </div>
         </div>
       </section>
