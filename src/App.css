@@ -21,10 +21,13 @@ body {
   color: var(--paper);
   font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
   min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #root {
   min-height: 100vh;
+  height: 100vh;
 }
 
 .page {
@@ -41,6 +44,27 @@ body {
   height: 100vh;
   overflow: hidden;
   isolation: isolate;
+}
+
+@supports (height: 100svh) {
+  body {
+    min-height: 100svh;
+    height: 100svh;
+  }
+
+  #root {
+    min-height: 100svh;
+    height: 100svh;
+  }
+
+  .page {
+    min-height: 100svh;
+    height: 100svh;
+  }
+
+  .hero {
+    height: 100svh;
+  }
 }
 
 .top-nav {
