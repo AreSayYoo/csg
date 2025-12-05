@@ -71,7 +71,7 @@ body {
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  padding-bottom: 7.5rem;
+  padding-bottom: 9rem;
   z-index: 1;
 }
 
@@ -164,7 +164,7 @@ body {
 @media (max-width: 1024px) {
   .hero-content {
     padding: 1.5rem;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
   }
 
   .logo-stack {
@@ -173,6 +173,6 @@ body {
   }
 
   .social-links {
-    bottom: 18px;
+    bottom: 22px;
   }
 }
