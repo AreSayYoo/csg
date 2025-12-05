@@ -21,18 +21,18 @@ body {
   color: var(--paper);
   font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
   min-height: 100vh;
-  height: 100vh;
-  overflow: hidden;
+  height: auto;
+  overflow-x: hidden;
 }
 
 #root {
   min-height: 100vh;
-  height: 100vh;
+  height: auto;
 }
 
 .page {
   min-height: 100vh;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   background: linear-gradient(120deg, rgba(12, 12, 19, 0.8), rgba(8, 10, 18, 0.8));
@@ -41,7 +41,7 @@ body {
 
 .hero {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   isolation: isolate;
 }
@@ -49,21 +49,21 @@ body {
 @supports (height: 100svh) {
   body {
     min-height: 100svh;
-    height: 100svh;
+    height: auto;
   }
 
   #root {
     min-height: 100svh;
-    height: 100svh;
+    height: auto;
   }
 
   .page {
     min-height: 100svh;
-    height: 100svh;
+    height: auto;
   }
 
   .hero {
-    height: 100svh;
+    min-height: 100svh;
   }
 }
 
