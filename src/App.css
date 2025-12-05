@@ -44,7 +44,7 @@ body {
 }
 
 .top-nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -52,7 +52,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 3;
+  z-index: 4;
 }
 
 .nav-logo {
@@ -104,7 +104,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem;
+  padding: 3rem 2rem 9rem;
   padding-bottom: 9rem;
   z-index: 1;
 }
@@ -212,6 +212,7 @@ body {
 
   .top-nav {
     padding: 0.65rem 1.25rem;
+    background: #000;
   }
 
   .nav-logo {
@@ -227,6 +228,7 @@ body {
 @media (max-width: 720px) {
   .top-nav {
     padding: 0.5rem 1rem;
+    background: #000;
   }
 
   .nav-logo {
