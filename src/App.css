@@ -164,7 +164,7 @@ body {
   left: auto;
   transform: none;
   bottom: auto;
-  margin: -4.5rem 0 0;
+  margin: clamp(-5.5rem, -5vw, -1.6rem) 0 0;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -225,6 +225,10 @@ body {
   .logo-initial {
     width: 42px;
     height: 42px;
+  }
+
+  .tagline-inline {
+    margin-top: clamp(-10rem, -8vw, -3rem);
   }
 }
 
