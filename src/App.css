@@ -228,7 +228,7 @@ body {
   }
 
   .tagline-inline {
-    margin-top: clamp(-10rem, -10vw, -5rem);
+    margin-top: clamp(-10rem, -10vw, -4.5rem);
   }
 }
 
