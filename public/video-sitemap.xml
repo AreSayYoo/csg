@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+>
+  <url>
+    <loc>https://www.covenantsg.com/watch.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.covenantsg.com/media/csg.jpeg</video:thumbnail_loc>
+      <video:title>Covenant Sports Group – Highlight Reel</video:title>
+      <video:description>Watch the Covenant Sports Group highlight reel.</video:description>
+      <video:content_loc>https://www.covenantsg.com/media/covenant-reel.mov</video:content_loc>
+      <video:player_loc allow_embed="yes">https://www.covenantsg.com/watch.html</video:player_loc>
+      <video:publication_date>2025-12-18T00:00:00+00:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+</urlset>
+

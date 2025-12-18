@@ -24,7 +24,8 @@ function App() {
           loop
           muted
           playsInline
-          preload="auto"
+          preload="metadata"
+          poster="/media/csg.jpeg"
           controls={false}
           aria-label="Covenant highlight reel"
         />
