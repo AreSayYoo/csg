@@ -19,7 +19,7 @@
     />
     <meta property="og:image" content="https://www.covenantsg.com/media/csg.jpeg" />
     <meta property="og:image:alt" content="Covenant Sports Group" />
-    <meta property="og:video" content="https://www.covenantsg.com/media/covenant-reel.mov" />
+    <meta property="og:video" content="https://www.covenantsg.com/media/covenant-desktop.mov" />
     <meta property="og:video:type" content="video/quicktime" />
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -40,7 +40,7 @@
         "thumbnailUrl": ["https://www.covenantsg.com/media/csg.jpeg"],
         "uploadDate": "2025-12-18",
         "isFamilyFriendly": true,
-        "contentUrl": "https://www.covenantsg.com/media/covenant-reel.mov",
+        "contentUrl": "https://www.covenantsg.com/media/covenant-desktop.mov",
         "embedUrl": "https://www.covenantsg.com/watch.html"
       }
     </script>
@@ -122,7 +122,8 @@
           poster="/media/csg.jpeg"
           aria-label="Covenant Sports Group highlight reel"
         >
-          <source src="/media/covenant-reel.mov" type="video/quicktime" />
+          <source src="/media/covenant-desktop.mov" media="(min-width: 900px)" />
+          <source src="/media/covenant-reel.mov" />
           Your browser does not support the video tag.
         </video>
       </div>

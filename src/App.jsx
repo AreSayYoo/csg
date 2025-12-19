@@ -1,7 +1,8 @@
 import './App.css'
 
 function App() {
-  const videoSrc = '/media/covenant-reel.mov'
+  const videoDesktopSrc = '/media/covenant-desktop.mov'
+  const videoMobileSrc = '/media/covenant-reel.mov'
   const logoSrc = '/media/csg.png'
 
   return (
@@ -19,7 +20,6 @@ function App() {
         </header>
         <video
           className="hero-video"
-          src={videoSrc}
           autoPlay
           loop
           muted
@@ -28,7 +28,11 @@ function App() {
           poster="/media/csg.jpeg"
           controls={false}
           aria-label="Covenant highlight reel"
-        />
+        >
+          <source src={videoDesktopSrc} media="(min-width: 900px)" />
+          <source src={videoMobileSrc} />
+          Your browser does not support the video tag.
+        </video>
         <div className="hero-overlay" />
         <div className="hero-content">
           <div className="logo-stack">
